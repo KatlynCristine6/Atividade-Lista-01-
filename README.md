@@ -3,7 +3,7 @@
 
 ## 1- Construa um programa que calcule o IMC – Índice de Massa Corporal e ainda exiba a classificação de acordo com a tabela de classificação da OMS.
 
-´´´
+```
 fun main() {
 
     val peso = 45
@@ -41,11 +41,13 @@ fun main() {
     } 
 
 }
-´´´
+
+```
 
 2) a)
 
-´´´
+
+```
 fun main() {
 
     val largura =
@@ -59,9 +61,12 @@ fun main() {
     print("$area metros quadrados")
 
 }
-´´´
+
+```
+
 b)
-´´´
+
+```
 fun main() {
 
     val area = 30
@@ -88,9 +93,12 @@ fun main() {
     println("$mestres, $serventes e $engenheiro")
 
 }
-´´´
+
+```
+
 c)
-´´´
+
+```
 fun main() {
 
     val area = 100
@@ -115,9 +123,12 @@ fun main() {
     println("O valor total é: $valor_total")
 
 }
-´´´
+
+```
+
 d)
-´´´
+
+```
 fun main() {
 
     val comprimento = readIn().toDouble()
@@ -149,9 +160,12 @@ fun main() {
     println("Valor total da mão de obra: $valor_trabalho")
 
 }
-´´´
+
+```
+
 e)
-´´´
+
+```
 fun main() {
 
     val comprimento = readIn().toDouble()
@@ -169,4 +183,5 @@ fun main() {
     var engenheiros = area / 100
 
 }
-´´´
+
+```
